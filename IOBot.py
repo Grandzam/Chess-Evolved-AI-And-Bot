@@ -3,8 +3,6 @@
 #TODO: it will also be able to do other trivial things like collect boxes and automatically play the challenge
 #when it is avalible
 
-
-
 from pynput.mouse import Button, Controller
 from PIL import Image
 from PIL import ImageGrab
@@ -12,6 +10,13 @@ import numpy as np
 import time
 
 mouse = Controller()
+
+#temporary hack TODO: deal with this better
+bgwNone = (493680,493680,493680)
+bgbNone = (379456,379456,379456)
+
+#a global for the size of the squares on the chess board in pixels just like everything else
+sqSize = 60
 
 #for some reason, in pynput, release and press are switched around, when I tested it out. Annoying but easy to deal with
 pressMouse = mouse.release
@@ -26,12 +31,25 @@ def initBoard():
         for j in range(8):
             board[i].append(0) #fill them in with empty spaces
 
-#piece names, initualized with the data in piece data
+#index = piece id, value = tuple of its rgb sum
+pieceImgData = []
+
+#index = piece id, value = name
 pieceNames = []
 
-#only fetches names for now
 def initPieceData():
-    pass
+    with open("piece-data.txt") as f:
+        for line in f:
+
+            #if we dont have the rgbsum data, the length of the split line will be two
+
+            if(len(line.split()) > 2):
+                RGBSum = (int(line.split()[2]),int(line.split()[3]),int(line.split()[4]))
+            else:
+                RGBSum = (-1,-1,-1) #indicates that we have not yet got the rgbsum data for the piece
+
+            pieceImgData.append(RGBSum)
+            pieceNames.append(line.split()[1])
 
 #takes in a greyscale numpy array of the screen and returns the width, height, x and y of the game screen
 #This will get documentation eventually about how it works
@@ -60,29 +78,60 @@ def findGame(shotData):
     " open, eg when you are selecting between challenge, ranked, or practice mode. Zoom must be at 100%")
     exit()
 
-#Read the pieces on the board TODO: Finish this
+#take image data and sums its RGB. Is used for fast image recognition
+def sumRGBofImg(imD):
+    r = 0
+    g = 0
+    b = 0
+    for i in range(imD.shape[0]):
+        for j in range(imD.shape[1]):
+            r = r+imD[i][j][0]
+            g = g+imD[i][j][1]
+            b = b+imD[i][j][2]
+    return r,g,b
 
-#Right now, I am using temp script to test this out before I add it to this program
-#because I dont want to have to traverse the entire program to do testing
+def getSquare(x,y,bX,bY):
+    pad = 8 #cut out 8 pixels from each side to get rid of the grey borders on squares
+    sqImg = ImageGrab.grab(( bX + sqSize*x + pad, bY + sqSize*y + pad, bX + sqSize*(x+1) - pad, bY + sqSize*(y+1) - pad))
+    sqImgData = np.array(sqImg)
+
+    return sqImgData
+
+#takes the x y of a square and returns id,name
+def readSquare(x,y,bX,bY):
+    #first, read the square and get its rgb sum
+    imData = getSquare(x,y,bX,bY)
+    r,g,b = sumRGBofImg(imData)
+    RGBSum = (r,g,b) #change it to tuple because the data is a tuple
+
+    #print()
+
+    if RGBSum == bgbNone or RGBSum == bgwNone:
+        return 0,'none'
+
+    #enumerate allows us to use index and value. index is the piece id for now
+    for pId,value in enumerate(pieceImgData):
+        #print("Checking " + str(RGBSum) + " against " + pieceNames[pId] + ": " + str(value))
+        if RGBSum == value:
+            return pId,pieceNames[pId]
+
+    return -1,"unknown"
+
+
+
 def readBoard(gameX,gameY):
-    #in 1920x1080 these are the positions of the board
     boardX, boardY = gameX+260, gameY+85
-    boardSquareSize = 60 # basically, this is how big a single square on the board is
 
     #grab only the image of the board
-    boardImg = ImageGrab.grab((boardX,boardY,boardX+boardSquareSize*8,boardY+boardSquareSize*8))
+    boardImg = ImageGrab.grab((boardX,boardY,boardX + sqSize*8,boardY + sqSize*8))
     boardImgData = np.array(boardImg)
-
-    boardImg.save("shots/Screenshot"+str( np.floor( time.time() ) )+".png")
 
     #loop each square and read the piece in that square
     for i in range(8):
+        print("-------")
         for j in range(8):
-            #take an image of the current square. sq = square abbreviated.
-            sqX,sqY = boardX+(j*boardSquareSize), boardY+(i*boardSquareSize)
-            boardImg = ImageGrab.grab((sqX,sqY,sqX+boardSquareSize,sqY+boardSquareSize))
-            boardImgData = np.array(boardImg)
-            boardImg.save("shots/Piece"+str(np.floor( time.time() ))+str(i+j)+".png")
+            #print the name of each square
+            print(readSquare(j,i,boardX,boardY)[1])
 
 
 #drag mouse to the specified position slowly. In a game where speed matters, we wouldnt waste time moving, but this makes the bot feel smoother
