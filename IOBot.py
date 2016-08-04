@@ -51,6 +51,30 @@ def initPieceData():
             pieceImgData.append(RGBSum)
             pieceNames.append(line.split()[1])
 
+#this adds an RGBSum to the data file, so we can recognize more kinds of pieces
+def addPieceData(RGBSum,pieceName):
+    r,g,b = RGBSum[0],RGBSum[1],RGBSum[2]
+
+    #this handles our file for us, closing it at the end of the scope
+    with open("piece-data.txt", "r+") as f:
+
+        #reads each line to see if it contains the name we are looking for
+        #if it does, it adds the image data to that line
+        #if not, it adds the line to the string and moves on
+
+        newFile = ""
+        for line in f:
+            if line.split()[1] == pieceName:
+                newFile = newFile + line.split()[0] + " " + pieceName + " " + str(r) + " " + str(g) + " " + str(b) + '\n'
+
+            else:
+                newFile = newFile + line
+
+
+        #place pointer at beginning of the file so we overwrite it
+        f.seek(0, 0);
+        f.write(newFile)
+
 #takes in a greyscale numpy array of the screen and returns the width, height, x and y of the game screen
 #This will get documentation eventually about how it works
 def findGame(shotData):
@@ -90,6 +114,7 @@ def sumRGBofImg(imD):
             b = b+imD[i][j][2]
     return r,g,b
 
+#returns image data of a square
 def getSquare(x,y,bX,bY):
     pad = 8 #cut out 8 pixels from each side to get rid of the grey borders on squares
     sqImg = ImageGrab.grab(( bX + sqSize*x + pad, bY + sqSize*y + pad, bX + sqSize*(x+1) - pad, bY + sqSize*(y+1) - pad))
@@ -97,7 +122,7 @@ def getSquare(x,y,bX,bY):
 
     return sqImgData
 
-#takes the x y of a square and returns id,name
+#takes the x y of a square and returns id,name,rgbsum
 def readSquare(x,y,bX,bY):
     #first, read the square and get its rgb sum
     imData = getSquare(x,y,bX,bY)
@@ -107,18 +132,19 @@ def readSquare(x,y,bX,bY):
     #print()
 
     if RGBSum == bgbNone or RGBSum == bgwNone:
-        return 0,'none'
+        return 0,'none',RGBSum
 
     #enumerate allows us to use index and value. index is the piece id for now
     for pId,value in enumerate(pieceImgData):
         #print("Checking " + str(RGBSum) + " against " + pieceNames[pId] + ": " + str(value))
         if RGBSum == value:
-            return pId,pieceNames[pId]
-
-    return -1,"unknown"
+            return pId,pieceNames[pId],RGBSum
 
 
+    return -1,"unknown",RGBSum
 
+#this reads out the contents of the board. Later, it will return the board,
+#but for now it just prints them and allows us to add data to the pieceData file
 def readBoard(gameX,gameY):
     boardX, boardY = gameX+260, gameY+85
 
@@ -130,9 +156,18 @@ def readBoard(gameX,gameY):
     for i in range(8):
         print("-------")
         for j in range(8):
-            #print the name of each square
-            print(readSquare(j,i,boardX,boardY)[1])
+            #print the name of each square, save it to look for unknowns
+            pId,pName,pRGBSum = readSquare(j,i,boardX,boardY)
+            print(pName)
+            if pId == -1:
+                newPieceName = input("What is the name of the piece on " + str(j) + "," + str(i)+"?")
 
+                if (i*8 + j)%2 == 0:
+                    newPieceName = "bgw_"+newPieceName
+                else:
+                    newPieceName = "bgb_"+newPieceName
+
+                addPieceData(pRGBSum,newPieceName)
 
 #drag mouse to the specified position slowly. In a game where speed matters, we wouldnt waste time moving, but this makes the bot feel smoother
 def dragMouse(x,y):
@@ -173,15 +208,6 @@ def main():
     #take a grayscale screenshot and make it a numpy array so we can read pixels from it
     im = ImageGrab.grab().convert('L')
     wholeGreyScreen = np.array(im)
-
-    #must have 1920x1080 as of now, because images and pretty much anything about reading the screen is messed up in other resolutions
-    #we can add other resolutions later
-    #TODO: add Alex's resolution, whatever it ends up being
-    resolution = wholeGreyScreen.shape
-    if resolution!=(1080,1920):
-        print(resolution)
-        print("Currently, the only supported resolution is 1920x1080. Get a better monitor or request that your resolution be supported.")
-        quit()
 
     #find game screen and put them into variables we can use.
     #TODO: make these globals somehow
