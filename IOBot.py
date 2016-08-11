@@ -11,16 +11,16 @@ import time
 
 mouse = Controller()
 
+#for some reason, in pynput, release and press are switched around, when I tested it out. Annoying but easy to deal with
+pressMouse = mouse.release
+releaseMouse = mouse.press
+
 #temporary hack TODO: deal with this better
 bgwNone = (493680,493680,493680)
 bgbNone = (379456,379456,379456)
 
 #a global for the size of the squares on the chess board in pixels just like everything else
 sqSize = 60
-
-#for some reason, in pynput, release and press are switched around, when I tested it out. Annoying but easy to deal with
-pressMouse = mouse.release
-releaseMouse = mouse.press
 
 #when init is run, this is a 8x8 list of lists
 board = []
@@ -93,7 +93,7 @@ def findGame(shotData):
                     highI=highI+1
 
                 #match grey pixels
-                if wideI>120 and highI>70 and shotData[i+highI][j]==31 and shotData[i][j+wideI]==95:
+                if wideI >= 456 and highI >= 123 and shotData[i+highI][j]==31 and shotData[i][j+wideI]==95:
                     print("Game Found at X: " + str(j) + " Y: " + str(i) + " Width: " + str(wideI+1) + " Height " + str(highI+1) + '\n')
                     return j, i, wideI+1, highI+1
 
@@ -137,7 +137,7 @@ def readSquare(x,y,bX,bY):
     #enumerate allows us to use index and value. index is the piece id for now
     for pId,value in enumerate(pieceImgData):
         #print("Checking " + str(RGBSum) + " against " + pieceNames[pId] + ": " + str(value))
-        if RGBSum == value:
+        if RGBSum == value :
             return pId,pieceNames[pId],RGBSum
 
 
@@ -159,19 +159,19 @@ def readBoard(gameX,gameY):
             #print the name of each square, save it to look for unknowns
             pId,pName,pRGBSum = readSquare(j,i,boardX,boardY)
             print(pName)
-            if pId == -1:
+
+            if (i*8 + j + i)%2 == 0:
+                prefix = "bgw_"
+            else:
+                prefix = "bgb_"
+
+            if (pId == -1 or not(prefix == pName[:4]) and not(pId == 0)):
                 newPieceName = input("What is the name of the piece on " + str(j) + "," + str(i)+"?")
 
-                if (i*8 + j)%2 == 0:
-                    newPieceName = "bgw_"+newPieceName
-                else:
-                    newPieceName = "bgb_"+newPieceName
+                addPieceData(pRGBSum,prefix + newPieceName)
 
-                addPieceData(pRGBSum,newPieceName)
-
-#drag mouse to the specified position slowly. In a game where speed matters, we wouldnt waste time moving, but this makes the bot feel smoother
-def dragMouse(x,y):
-    pressMouse(Button.left)
+#moves mouse to the specified position slowly. In a game where speed matters, we wouldnt waste time moving, but this makes the bot feel smoother
+def moveMouse(x,y):
     currentX = float(mouse.position[0])
     currentY = float(mouse.position[1])
 
@@ -183,23 +183,23 @@ def dragMouse(x,y):
         currentY += yStep
         mouse.position = (int(currentX),int(currentY))
         time.sleep(0.004)
+
+#drags mouse
+def dragMouse(x,y):
+    pressMouse(Button.left)
+    moveMouse(x,y)
     releaseMouse(Button.left)
 
-#TODO: make this work, with a tuple argument instead of a file. It used to work
-#but it will require a trivial amount of modification and perferablly some other features
-'''
-def makeMove(moveFileName):
-    move = open(moveFileName)
-    moveStr = move.read()
-    piece1x,piece1y,piece2x,piece2y = moveStr.split()
 
-    piece1x,piece1y,piece2x,piece2y = int(piece1x),int(piece1y),int(piece2x),int(piece2y)
+def makeMove(move,gameX,gameY):
+    boardX, boardY = gameX+260, gameY+85
 
-    print(piece1x,piece1y,piece2x,piece2y)
+    #move mouse to start of square
+    moveMouse( boardX+(move[0]*sqSize) + sqSize/2, boardY+(move[1]*sqSize) + sqSize/2)
 
-    moveMouse(GAME_X+BOARD_X+(piece1x*SQUARE_SIZE),GAME_Y+BOARD_Y+(piece1y*SQUARE_SIZE))
-    dragMouse(GAME_X+BOARD_X+(piece2x*SQUARE_SIZE),GAME_Y+BOARD_Y+(piece2y*SQUARE_SIZE))
-'''
+    #drag mouse to the end square, completing the move
+    dragMouse( boardX+(move[2]*sqSize) + sqSize/2, boardY+(move[3]*sqSize) + sqSize/2)
+
 
 def main():
     initBoard()
@@ -217,6 +217,9 @@ def main():
     #change the board from its current default values to the values on the screen
     print("Reading Chess Board...")
     readBoard(gameX,gameY)
+
+    print("Making Move...")
+    makeMove((2,7,1,5),gameX,gameY)
 
 
     #makeMove('testMoveData.txt')

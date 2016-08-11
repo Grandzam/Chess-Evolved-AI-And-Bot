@@ -1,21 +1,21 @@
-1 bgw_w_archer
-2 bgb_w_archer
-3 bgw_w_archer+
-4 bgb_w_archer+
+1 bgw_w_archer 428684 428684 428684
+2 bgb_w_archer 352554 352554 352554
+3 bgw_w_archer+ 436356 390248 448013
+4 bgb_w_archer+ 362681 321775 373894
 5 bgw_w_archer++
 6 bgb_w_archer++
 7 bgw_w_archer+++
 8 bgb_w_archer+++
-9 bgw_b_archer 286561 286561 286561
-10 bgb_b_archer 362767 362767 362767
+9 bgw_b_archer 362767 362767 362767
+10 bgb_b_archer 286561 286561 286561
 11 bgw_b_archer+
 12 bgb_b_archer+ 377724 331628 389377
 13 bgw_b_archer++
 14 bgb_b_archer++
 15 bgw_b_archer+++
 16 bgb_b_archer+++ 332589 240308 240308
-17 bgw_w_axeman
-18 bgb_w_axeman
+17 bgw_w_axeman 437085 437085 437085
+18 bgb_w_axeman 355677 355677 355677
 19 bgw_w_axeman+ 439754 402094 450017
 20 bgb_w_axeman+
 21 bgw_w_axeman++
@@ -23,17 +23,17 @@
 23 bgw_w_axeman+++
 24 bgb_w_axeman+++
 25 bgw_b_axeman
-26 bgb_b_axeman
+26 bgb_b_axeman 297547 297547 297547
 27 bgw_b_axeman+
 28 bgb_b_axeman+
 29 bgw_b_axeman++
 30 bgb_b_axeman++
 31 bgw_b_axeman+++
 32 bgb_b_axeman+++
-33 bgw_w_banshee
-34 bgb_w_banshee
-35 bgw_w_banshee+
-36 bgb_w_banshee+
+33 bgw_w_banshee 416095 416095 416095
+34 bgb_w_banshee 416095 416095 416095
+35 bgw_w_banshee+ 420214 383311 429924
+36 bgb_w_banshee+ 350810 313907 360520
 37 bgw_w_banshee++
 38 bgb_w_banshee++
 39 bgw_w_banshee+++
@@ -47,7 +47,7 @@
 47 bgw_b_banshee+++
 48 bgb_b_banshee+++
 49 bgw_w_bat
-50 bgb_w_bat
+50 bgb_w_bat 351297 351297 351297
 51 bgw_w_bat+
 52 bgb_w_bat+
 53 bgw_w_bat++
@@ -55,28 +55,28 @@
 55 bgw_w_bat+++
 56 bgb_w_bat+++
 57 bgw_b_bat
-58 bgb_b_bat 402749 402749 402749
+58 bgb_b_bat 314296 314296 314296
 59 bgw_b_bat+
 60 bgb_b_bat+ 415213 377471 424801
 61 bgw_b_bat++
 62 bgb_b_bat++
 63 bgw_b_bat+++
 64 bgb_b_bat+++
-65 bgw_w_bishop
-66 bgb_w_bishop
-67 bgw_w_bishop+
-68 bgb_w_bishop+
+65 bgw_w_bishop 441605 441605 441605
+66 bgb_w_bishop 362983 362983 362983
+67 bgw_w_bishop+ 442300 411679 450773
+68 bgb_w_bishop+ 368295 337674 376768
 69 bgw_w_bishop++
 70 bgb_w_bishop++
 71 bgw_w_bishop+++
 72 bgb_w_bishop+++
-73 bgw_b_bishop
+73 bgw_b_bishop 371496 371496 371496
 74 bgb_b_bishop 292874 292874 292874
-75 bgw_b_bishop+
-76 bgb_b_bishop+ 379456 379456 379456
+75 bgw_b_bishop+ 378771 348178 387226
+76 bgb_b_bishop+ 304766 274173 313221
 77 bgw_b_bishop++
 78 bgb_b_bishop++
-79 bgw_b_bishop+++
+79 bgw_b_bishop+++ 389841 318213 318213
 80 bgb_b_bishop+++
 81 bgw_w_bomber
 82 bgb_w_bomber
@@ -86,39 +86,39 @@
 86 bgb_w_bomber++
 87 bgw_w_bomber+++
 88 bgb_w_bomber+++
-89 bgw_b_bomber
-90 bgb_b_bomber
-91 bgw_b_bomber+
-92 bgb_b_bomber+
+89 bgw_b_bomber 397680 397680 397680
+90 bgb_b_bomber 310208 310208 310208
+91 bgw_b_bomber+ 406629 367168 416811
+92 bgb_b_bomber+ 325592 286131 335774
 93 bgw_b_bomber++
 94 bgb_b_bomber++
 95 bgw_b_bomber+++
-96 bgb_b_bomber+++
+96 bgb_b_bomber+++ 345707 261693 261693
 97 bgw_w_dryad
 98 bgb_w_dryad
-99 bgw_w_dryad+
-100 bgb_w_dryad+
-101 bgw_w_dryad++
+99 bgw_w_dryad+ 416560 367213 429525
+100 bgb_w_dryad+ 351295 301948 364260
+101 bgw_w_dryad++ 433179 384147 336854
 102 bgb_w_dryad++
 103 bgw_w_dryad+++
 104 bgb_w_dryad+++
 105 bgw_b_dryad
-106 bgb_b_dryad
+106 bgb_b_dryad 272719 272719 272719
 107 bgw_b_dryad+
 108 bgb_b_dryad+
 109 bgw_b_dryad++
-110 bgb_b_dryad++
+110 bgb_b_dryad++ 320059 271192 224106
 111 bgw_b_dryad+++
 112 bgb_b_dryad+++
 113 bgw_w_duelist
-114 bgb_w_duelist
+114 bgb_w_duelist 350973 350973 350973
 115 bgw_w_duelist+
 116 bgb_w_duelist+
 117 bgw_w_duelist++
 118 bgb_w_duelist++
-119 bgw_w_duelist+++
+119 bgw_w_duelist+++ 466031 400489 400489
 120 bgb_w_duelist+++
-121 bgw_b_duelist
+121 bgw_b_duelist 422388 422388 422388
 122 bgb_b_duelist
 123 bgw_b_duelist+
 124 bgb_b_duelist+
@@ -134,26 +134,26 @@
 134 bgb_w_fireball++
 135 bgw_w_fireball+++
 136 bgb_w_fireball+++
-137 bgw_b_fireball 275371 275371 275371
+137 bgw_b_fireball 349089 349089 349089
 138 bgb_b_fireball
 139 bgw_b_fireball+ 363099 323265 373572
-140 bgb_b_fireball+ 349089 349089 349089
+140 bgb_b_fireball+ 294717 254883 305190
 141 bgw_b_fireball++
 142 bgb_b_fireball++
 143 bgw_b_fireball+++
 144 bgb_b_fireball+++
 145 bgw_w_frostmage
-146 bgb_w_frostmage
+146 bgb_w_frostmage 344987 344987 344987
 147 bgw_w_frostmage+
-148 bgb_w_frostmage+
+148 bgb_w_frostmage+ 358996 307197 372589
 149 bgw_w_frostmage++
 150 bgb_w_frostmage++
 151 bgw_w_frostmage+++
 152 bgb_w_frostmage+++
-153 bgw_b_frostmage
+153 bgw_b_frostmage 361696 361696 361696
 154 bgb_b_frostmage
 155 bgw_b_frostmage+
-156 bgb_b_frostmage+
+156 bgb_b_frostmage+ 308522 256793 322118
 157 bgw_b_frostmage++
 158 bgb_b_frostmage++
 159 bgw_b_frostmage+++
@@ -166,94 +166,94 @@
 166 bgb_w_ghost++
 167 bgw_w_ghost+++
 168 bgb_w_ghost+++
-169 bgw_b_ghost
-170 bgb_b_ghost
+169 bgw_b_ghost 378828 378828 378828
+170 bgb_b_ghost 282820 319528 329951
 171 bgw_b_ghost+
 172 bgb_b_ghost+
 173 bgw_b_ghost++
 174 bgb_b_ghost++
 175 bgw_b_ghost+++
 176 bgb_b_ghost+++
-177 bgw_w_guardian
-178 bgb_w_guardian
+177 bgw_w_guardian 433920 389653 344595
+178 bgb_w_guardian 343540 343540 343540
 179 bgw_w_guardian+
-180 bgb_w_guardian+
+180 bgb_w_guardian+ 354480 310465 366365
 181 bgw_w_guardian++
 182 bgb_w_guardian++
 183 bgw_w_guardian+++
 184 bgb_w_guardian+++
-185 bgw_b_guardian
-186 bgb_b_guardian
+185 bgw_b_guardian 346816 346816 346816
+186 bgb_b_guardian 273859 273859 273859
 187 bgw_b_guardian+
 188 bgb_b_guardian+
 189 bgw_b_guardian++
 190 bgb_b_guardian++
 191 bgw_b_guardian+++
 192 bgb_b_guardian+++
-193 bgw_w_knight
-194 bgb_w_knight
-195 bgw_w_knight+
-196 bgb_w_knight+
-197 bgw_w_knight++
+193 bgw_w_knight 426983 426983 426983
+194 bgb_w_knight 353457 353457 353457
+195 bgw_w_knight+ 430749 397370 439683
+196 bgb_w_knight+ 369389 336010 378323
+197 bgw_w_knight++ 440975 402856 367042
 198 bgb_w_knight++
 199 bgw_w_knight+++
 200 bgb_w_knight+++
-201 bgw_b_knight
-202 bgb_b_knight
-203 bgw_b_knight+
+201 bgw_b_knight 331526 331526 331526
+202 bgb_b_knight 265626 265626 265626
+203 bgw_b_knight+ 342230 308709 351146
 204 bgb_b_knight+
 205 bgw_b_knight++
 206 bgb_b_knight++
 207 bgw_b_knight+++
 208 bgb_b_knight+++
-209 bgw_w_militia
-210 bgb_w_militia
+209 bgw_w_militia 432143 432143 432143
+210 bgb_w_militia 352691 352691 352691
 211 bgw_w_militia+
 212 bgb_w_militia+
 213 bgw_w_militia++
 214 bgb_w_militia++
 215 bgw_w_militia+++
 216 bgb_w_militia+++
-217 bgw_b_militia 294938 294938 294938
-218 bgb_b_militia 374436 374436 374436
-219 bgw_b_militia+ 312115 269846 323590
-220 bgb_b_militia+
+217 bgw_b_militia 374436 374436 374436
+218 bgb_b_militia 294938 294938 294938
+219 bgw_b_militia+ 385442 343173 396917
+220 bgb_b_militia+ 312115 269846 323590
 221 bgw_b_militia++
 222 bgb_b_militia++
 223 bgw_b_militia+++
 224 bgb_b_militia+++
 225 bgw_w_pawn 446006 446006 446006
 226 bgb_w_pawn 372242 372242 372242
-227 bgw_w_pawn+
-228 bgb_w_pawn+
+227 bgw_w_pawn+ 445539 414835 454213
+228 bgb_w_pawn+ 376256 345552 384930
 229 bgw_w_pawn++
 230 bgb_w_pawn++
 231 bgw_w_pawn+++
 232 bgb_w_pawn+++
 233 bgw_b_pawn 358889 358889 358889
 234 bgb_b_pawn 285125 285125 285125
-235 bgw_b_pawn+
-236 bgb_b_pawn+
+235 bgw_b_pawn+ 366486 335795 375121
+236 bgb_b_pawn+ 297203 266512 305838
 237 bgw_b_pawn++
 238 bgb_b_pawn++
 239 bgw_b_pawn+++
 240 bgb_b_pawn+++
-241 bgw_w_penguin
-242 bgb_w_penguin
-243 bgw_w_penguin+
+241 bgw_w_penguin 442573 442573 442573
+242 bgb_w_penguin 357668 357668 357668
+243 bgw_w_penguin+ 364345 336710 371980
 244 bgb_w_penguin+
 245 bgw_w_penguin++
 246 bgb_w_penguin++
 247 bgw_w_penguin+++
 248 bgb_w_penguin+++
-249 bgw_b_penguin 309310 309310 309310
-250 bgb_b_penguin
+249 bgw_b_penguin 394212 394212 394212
+250 bgb_b_penguin 309310 309310 309310
 251 bgw_b_penguin+
-252 bgb_b_penguin+
-253 bgw_b_penguin++
+252 bgb_b_penguin+ 321156 293559 328756
+253 bgw_b_penguin++ 415888 386618 360771
 254 bgb_b_penguin++
 255 bgw_b_penguin+++
-256 bgb_b_penguin+++
+256 bgb_b_penguin+++ 411574 341746 341746
 257 bgw_w_poisonmage
 258 bgb_w_poisonmage
 259 bgw_w_poisonmage+ 423381 376986 435064
@@ -269,7 +269,7 @@
 269 bgw_b_poisonmage++
 270 bgb_b_poisonmage++
 271 bgw_b_poisonmage+++
-272 bgb_b_poisonmage+++
+272 bgb_b_poisonmage+++ 325585 237480 237480
 273 bgw_w_shieldman
 274 bgb_w_shieldman
 275 bgw_w_shieldman+
@@ -288,12 +288,12 @@
 288 bgb_b_shieldman+++
 289 bgw_w_skeleton
 290 bgb_w_skeleton
-291 bgw_w_skeleton+
+291 bgw_w_skeleton+ 429646 386337 440810
 292 bgb_w_skeleton+
 293 bgw_w_skeleton++
 294 bgb_w_skeleton++
 295 bgw_w_skeleton+++
-296 bgb_w_skeleton+++
+296 bgb_w_skeleton+++ 377435 285797 285797
 297 bgw_b_skeleton 286156 286156 286156
 298 bgb_b_skeleton 363348 363348 363348
 299 bgw_b_skeleton+
@@ -303,14 +303,14 @@
 303 bgw_b_skeleton+++
 304 bgb_b_skeleton+++
 305 bgw_w_slime
-306 bgb_w_slime
-307 bgw_w_slime+
-308 bgb_w_slime+
+306 bgb_w_slime 434191 434191 434191
+307 bgw_w_slime+ 362681 321775 373894
+308 bgb_w_slime+ 435693 394787 446906
 309 bgw_w_slime++
 310 bgb_w_slime++
 311 bgw_w_slime+++
 312 bgb_w_slime+++
-313 bgw_b_slime
+313 bgw_b_slime 293934 293934 293934
 314 bgb_b_slime
 315 bgw_b_slime+
 316 bgb_b_slime+
@@ -320,7 +320,7 @@
 320 bgb_b_slime+++
 321 bgw_w_spearman 444807 444807 444807
 322 bgb_w_spearman 360476 360476 360476
-323 bgw_w_spearman+
+323 bgw_w_spearman+ 444575 408797 454528
 324 bgb_w_spearman+ 365767 329989 375720
 325 bgw_w_spearman++
 326 bgb_w_spearman++
@@ -335,14 +335,14 @@
 335 bgw_b_spearman+++
 336 bgb_b_spearman+++
 337 bgw_w_spider
-338 bgb_w_spider
+338 bgb_w_spider 345727 345727 345727
 339 bgw_w_spider+
 340 bgb_w_spider+
 341 bgw_w_spider++
-342 bgb_w_spider++
+342 bgb_w_spider++ 448538 394998 344113
 343 bgw_w_spider+++
 344 bgb_w_spider+++
-345 bgw_b_spider
+345 bgw_b_spider 376962 376962 376962
 346 bgb_b_spider
 347 bgw_b_spider+
 348 bgb_b_spider+
@@ -351,7 +351,7 @@
 351 bgw_b_spider+++
 352 bgb_b_spider+++
 353 bgw_w_swordsman
-354 bgb_w_swordsman
+354 bgb_w_swordsman 359335 359335 359335
 355 bgw_w_swordsman+
 356 bgb_w_swordsman+
 357 bgw_w_swordsman++
@@ -360,17 +360,17 @@
 360 bgb_w_swordsman+++
 361 bgw_b_swordsman 309722 309722 309722
 362 bgb_b_swordsman 395902 395902 395902
-363 bgw_b_swordsman+ 321454 288325 330626
-364 bgb_b_swordsman+ 402215 369086 411387
+363 bgw_b_swordsman+ 402215 369086 411387
+364 bgb_b_swordsman+ 321454 288325 330626
 365 bgw_b_swordsman++
 366 bgb_b_swordsman++
 367 bgw_b_swordsman+++
 368 bgb_b_swordsman+++
-369 bgw_w_tiger
-370 bgb_w_tiger
+369 bgw_w_tiger 397339 397339 397339
+370 bgb_w_tiger 328014 328014 328014
 371 bgw_w_tiger+
 372 bgb_w_tiger+
-373 bgw_w_tiger++
+373 bgw_w_tiger++ 424593 376331 334386
 374 bgb_w_tiger++
 375 bgw_w_tiger+++
 376 bgb_w_tiger+++
@@ -382,24 +382,24 @@
 382 bgb_b_tiger++
 383 bgw_b_tiger+++
 384 bgb_b_tiger+++
-385 bgw_w_warrior
+385 bgw_w_warrior 353457 353457 353457
 386 bgb_w_warrior
-387 bgw_w_warrior+
+387 bgw_w_warrior+ 427378 393819 436602
 388 bgb_w_warrior+
 389 bgw_w_warrior++
 390 bgb_w_warrior++
 391 bgw_w_warrior+++
 392 bgb_w_warrior+++
 393 bgw_b_warrior 346411 346411 346411
-394 bgb_b_warrior
-395 bgw_b_warrior+
+394 bgb_b_warrior 274639 274639 274639
+395 bgw_b_warrior+ 355554 321991 364748
 396 bgb_b_warrior+ 288551 254988 297745
 397 bgw_b_warrior++
-398 bgb_b_warrior++
+398 bgb_b_warrior++ 308921 270725 234172
 399 bgw_b_warrior+++
 400 bgb_b_warrior+++
 401 bgw_w_windmage
-402 bgb_w_windmage
+402 bgb_w_windmage 343096 343096 343096
 403 bgw_w_windmage+ 432381 385262 444262
 404 bgb_w_windmage+ 358743 311624 370624
 405 bgw_w_windmage++
@@ -408,14 +408,14 @@
 408 bgb_w_windmage+++
 409 bgw_b_windmage
 410 bgb_b_windmage
-411 bgw_b_windmage+ 282866 245147 293082
+411 bgw_b_windmage+
 412 bgb_b_windmage+ 315979 268904 327842
 413 bgw_b_windmage++
-414 bgb_b_windmage++
+414 bgb_b_windmage++ 336464 296931 258389
 415 bgw_b_windmage+++
 416 bgb_b_windmage+++
 417 bgw_w_alchemist
-418 bgb_w_alchemist
+418 bgb_w_alchemist 338975 338975 338975
 419 bgw_w_alchemist+ 416766 363178 430419
 420 bgb_w_alchemist+ 355278 301690 368931
 421 bgw_w_alchemist++
@@ -423,22 +423,22 @@
 423 bgw_w_alchemist+++
 424 bgb_w_alchemist+++
 425 bgw_b_alchemist
-426 bgb_b_alchemist
+426 bgb_b_alchemist 282866 245147 293082
 427 bgw_b_alchemist+ 349706 296147 363301
-428 bgb_b_alchemist+
+428 bgb_b_alchemist+ 288218 234659 301813
 429 bgw_b_alchemist++
 430 bgb_b_alchemist++
 431 bgw_b_alchemist+++
 432 bgb_b_alchemist+++
 433 bgw_w_basilisk
 434 bgb_w_basilisk
-435 bgw_w_basilisk+
-436 bgb_w_basilisk+
+435 bgw_w_basilisk+ 402120 351581 415584
+436 bgb_w_basilisk+ 343273 292734 356737
 437 bgw_w_basilisk++
 438 bgb_w_basilisk++
 439 bgw_w_basilisk+++ 420027 323765 323765
 440 bgb_w_basilisk+++
-441 bgw_b_basilisk 257609 257609 257609
+441 bgw_b_basilisk 323470 323470 323470
 442 bgb_b_basilisk 323470 323470 323470
 443 bgw_b_basilisk+
 444 bgb_b_basilisk+
@@ -447,17 +447,17 @@
 447 bgw_b_basilisk+++
 448 bgb_b_basilisk+++
 449 bgw_w_berserker
-450 bgb_w_berserker
-451 bgw_w_berserker+
-452 bgb_w_berserker+ 423785 371412 437554
+450 bgb_w_berserker 345108 345108 345108
+451 bgw_w_berserker+ 423785 371412 437554
+452 bgb_w_berserker+ 357017 304644 370786
 453 bgw_w_berserker++
 454 bgb_w_berserker++
 455 bgw_w_berserker+++
 456 bgb_w_berserker+++
 457 bgw_b_berserker
-458 bgb_b_berserker
-459 bgw_b_berserker+
-460 bgb_b_berserker+
+458 bgb_b_berserker 302883 250573 316649
+459 bgw_b_berserker+ 369651 317341 383417
+460 bgb_b_berserker+ 369651 317341 383417
 461 bgw_b_berserker++ 389554 334571 282398
 462 bgb_b_berserker++
 463 bgw_b_berserker+++
@@ -477,17 +477,17 @@
 477 bgw_b_crusader++
 478 bgb_b_crusader++
 479 bgw_b_crusader+++
-480 bgb_b_crusader+++
+480 bgb_b_crusader+++ 302670 206812 206812
 481 bgw_w_drake
-482 bgb_w_drake
-483 bgw_w_drake+
+482 bgb_w_drake 337369 342490 345947
+483 bgw_w_drake+ 433486 392609 444027
 484 bgb_w_drake+
 485 bgw_w_drake++
 486 bgb_w_drake++
 487 bgw_w_drake+++
 488 bgb_w_drake+++
-489 bgw_b_drake
-490 bgb_b_drake
+489 bgw_b_drake 372786 372786 372786
+490 bgb_b_drake 292422 292422 292422
 491 bgw_b_drake+
 492 bgb_b_drake+
 493 bgw_b_drake++
@@ -495,7 +495,7 @@
 495 bgw_b_drake+++
 496 bgb_b_drake+++
 497 bgw_w_fencer
-498 bgb_w_fencer
+498 bgb_w_fencer 337091 337091 337091
 499 bgw_w_fencer+
 500 bgb_w_fencer+
 501 bgw_w_fencer++
@@ -510,24 +510,24 @@
 510 bgb_b_fencer++
 511 bgw_b_fencer+++
 512 bgb_b_fencer+++
-513 bgw_w_frostmephit
+513 bgw_w_frostmephit 416953 416953 416953
 514 bgb_w_frostmephit
-515 bgw_w_frostmephit+
-516 bgb_w_frostmephit+
+515 bgw_w_frostmephit+ 427587 371074 441786
+516 bgb_w_frostmephit+ 354667 298154 368866
 517 bgw_w_frostmephit++
 518 bgb_w_frostmephit++
 519 bgw_w_frostmephit+++
 520 bgb_w_frostmephit+++
-521 bgw_b_frostmephit
-522 bgb_b_frostmephit
+521 bgw_b_frostmephit 374340 374340 374340
+522 bgb_b_frostmephit 293441 293441 293441
 523 bgw_b_frostmephit+
-524 bgb_b_frostmephit+
+524 bgb_b_frostmephit+ 318603 262137 332799
 525 bgw_b_frostmephit++
 526 bgb_b_frostmephit++
 527 bgw_b_frostmephit+++
 528 bgb_b_frostmephit+++
 529 bgw_w_giantslime
-530 bgb_w_giantslime
+530 bgb_w_giantslime 424518 424518 424518
 531 bgw_w_giantslime+
 532 bgb_w_giantslime+
 533 bgw_w_giantslime++
@@ -540,9 +540,9 @@
 540 bgb_b_giantslime+
 541 bgw_b_giantslime++
 542 bgb_b_giantslime++
-543 bgw_b_giantslime+++
+543 bgw_b_giantslime+++ 386599 300521 300521
 544 bgb_b_giantslime+++
-545 bgw_w_hostage
+545 bgw_w_hostage 399010 399010 399010
 546 bgb_w_hostage
 547 bgw_w_hostage+
 548 bgb_w_hostage+
@@ -550,33 +550,33 @@
 550 bgb_w_hostage++
 551 bgw_w_hostage+++
 552 bgb_w_hostage+++
-553 bgw_b_hostage
-554 bgb_b_hostage
+553 bgw_b_hostage 351651 351651 351651
+554 bgb_b_hostage 276669 276669 276669
 555 bgw_b_hostage+
 556 bgb_b_hostage+
 557 bgw_b_hostage++
-558 bgb_b_hostage++
-559 bgw_b_hostage+++
+558 bgb_b_hostage++ 312106 277042 245044
+559 bgw_b_hostage+++ 378518 309678 309678
 560 bgb_b_hostage+++
-561 bgw_w_legionary
+561 bgw_w_legionary 444010 444010 444010
 562 bgb_w_legionary
-563 bgw_w_legionary+
+563 bgw_w_legionary+ 445553 413659 454385
 564 bgb_w_legionary+
 565 bgw_w_legionary++
 566 bgb_w_legionary++
 567 bgw_w_legionary+++
 568 bgb_w_legionary+++
-569 bgw_b_legionary
-570 bgb_b_legionary
-571 bgw_b_legionary+
+569 bgw_b_legionary 398277 398277 398277
+570 bgb_b_legionary 311187 311187 311187
+571 bgw_b_legionary+ 405142 373219 413956
 572 bgb_b_legionary+ 323186 291263 332000
 573 bgw_b_legionary++
 574 bgb_b_legionary++
 575 bgw_b_legionary+++
 576 bgb_b_legionary+++
-577 bgw_w_magetower
+577 bgw_w_magetower 353272 353272 353272
 578 bgb_w_magetower
-579 bgw_w_magetower+
+579 bgw_w_magetower+ 430143 392765 440244
 580 bgb_w_magetower+
 581 bgw_w_magetower++
 582 bgb_w_magetower++
@@ -584,14 +584,14 @@
 584 bgb_w_magetower+++
 585 bgw_b_magetower 353755 353755 353755
 586 bgb_b_magetower
-587 bgw_b_magetower+
+587 bgw_b_magetower+ 364992 327742 375007
 588 bgb_b_magetower+
 589 bgw_b_magetower++
 590 bgb_b_magetower++
 591 bgw_b_magetower+++
 592 bgb_b_magetower+++
 593 bgw_w_necromancer
-594 bgb_w_necromancer
+594 bgb_w_necromancer 411712 411712 411712
 595 bgw_w_necromancer+
 596 bgb_w_necromancer+
 597 bgw_w_necromancer++
@@ -599,10 +599,10 @@
 599 bgw_w_necromancer+++
 600 bgb_w_necromancer+++
 601 bgw_b_necromancer
-602 bgb_b_necromancer
+602 bgb_b_necromancer 272689 272689 272689
 603 bgw_b_necromancer+
 604 bgb_b_necromancer+
-605 bgw_b_necromancer++
+605 bgw_b_necromancer++ 382124 339484 302387
 606 bgb_b_necromancer++
 607 bgw_b_necromancer+++
 608 bgb_b_necromancer+++
@@ -614,12 +614,12 @@
 614 bgb_w_paladin++
 615 bgw_w_paladin+++
 616 bgb_w_paladin+++
-617 bgw_b_paladin
+617 bgw_b_paladin 370177 370177 370177
 618 bgb_b_paladin 291859 291859 291859
 619 bgw_b_paladin+ 380301 345062 389589
-620 bgb_b_paladin+
-621 bgw_b_paladin++
-622 bgb_b_paladin++
+620 bgb_b_paladin+ 306951 271712 316239
+621 bgw_b_paladin++ 394555 355295 317412
+622 bgb_b_paladin++ 327253 287993 250110
 623 bgw_b_paladin+++
 624 bgb_b_paladin+++
 625 bgw_w_phantasm
@@ -630,26 +630,26 @@
 630 bgb_w_phantasm++
 631 bgw_w_phantasm+++
 632 bgb_w_phantasm+++
-633 bgw_b_phantasm
+633 bgw_b_phantasm 281414 281414 281414
 634 bgb_b_phantasm
-635 bgw_b_phantasm+
+635 bgw_b_phantasm+ 380305 317862 395354
 636 bgb_b_phantasm+
-637 bgw_b_phantasm++
+637 bgw_b_phantasm++ 401335 342953 286909
 638 bgb_b_phantasm++
 639 bgw_b_phantasm+++
 640 bgb_b_phantasm+++
-641 bgw_w_portal
-642 bgb_w_portal
-643 bgw_w_portal+
+641 bgw_w_portal 412562 412562 412562
+642 bgb_w_portal 341427 341427 341427
+643 bgw_w_portal+ 419009 360096 434242
 644 bgb_w_portal+
 645 bgw_w_portal++
 646 bgb_w_portal++
 647 bgw_w_portal+++
 648 bgb_w_portal+++
 649 bgw_b_portal 274133 274133 274133
-650 bgb_b_portal 345043 345043 345043
-651 bgw_b_portal+
-652 bgb_b_portal+
+650 bgb_b_portal 274133 274133 274133
+651 bgw_b_portal+ 362574 302990 377897
+652 bgb_b_portal+ 299783 240199 315106
 653 bgw_b_portal++
 654 bgb_b_portal++
 655 bgw_b_portal+++
@@ -662,15 +662,15 @@
 662 bgb_w_prince++
 663 bgw_w_prince+++
 664 bgb_w_prince+++
-665 bgw_b_prince
-666 bgb_b_prince
+665 bgw_b_prince 381566 381566 381566
+666 bgb_b_prince 299643 299643 299643
 667 bgw_b_prince+
 668 bgb_b_prince+
 669 bgw_b_prince++
 670 bgb_b_prince++
 671 bgw_b_prince+++
 672 bgb_b_prince+++
-673 bgw_w_princess
+673 bgw_w_princess 384278 420988 431408
 674 bgb_w_princess
 675 bgw_w_princess+
 676 bgb_w_princess+
@@ -680,53 +680,53 @@
 680 bgb_w_princess+++
 681 bgw_b_princess 282820 319528 329951
 682 bgb_b_princess
-683 bgw_b_princess+ 297778 293894 355662
-684 bgb_b_princess+
+683 bgw_b_princess+ 372031 368147 429915
+684 bgb_b_princess+ 319949 284199 329881
 685 bgw_b_princess++
 686 bgb_b_princess++
-687 bgw_b_princess+++
+687 bgw_b_princess+++ 385173 345844 356297
 688 bgb_b_princess+++
-689 bgw_w_pyromancer
+689 bgw_w_pyromancer 422819 422819 422819
 690 bgb_w_pyromancer
-691 bgw_w_pyromancer+
+691 bgw_w_pyromancer+ 429100 384571 440605
 692 bgb_w_pyromancer+
-693 bgw_w_pyromancer++
-694 bgb_w_pyromancer++
+693 bgw_w_pyromancer++ 441119 396664 351430
+694 bgb_w_pyromancer++ 378911 334456 289222
 695 bgw_w_pyromancer+++
 696 bgb_w_pyromancer+++
-697 bgw_b_pyromancer 356103 356103 356103
-698 bgb_b_pyromancer
+697 bgw_b_pyromancer 370000 325266 381524
+698 bgb_b_pyromancer 280709 280709 280709
 699 bgw_b_pyromancer+
 700 bgb_b_pyromancer+
-701 bgw_b_pyromancer++
+701 bgw_b_pyromancer++ 384672 340195 294724
 702 bgb_b_pyromancer++
 703 bgw_b_pyromancer+++
 704 bgb_b_pyromancer+++
 705 bgw_w_ranger
 706 bgb_w_ranger
-707 bgw_w_ranger+
+707 bgw_w_ranger+ 427376 379402 439405
 708 bgb_w_ranger+
-709 bgw_w_ranger++
-710 bgb_w_ranger++
+709 bgw_w_ranger++ 441308 393669 346211
+710 bgb_w_ranger++ 381644 334005 286547
 711 bgw_w_ranger+++
 712 bgb_w_ranger+++
 713 bgw_b_ranger
 714 bgb_b_ranger
 715 bgw_b_ranger+
 716 bgb_b_ranger+
-717 bgw_b_ranger++
+717 bgw_b_ranger++ 380049 332627 285232
 718 bgb_b_ranger++
 719 bgw_b_ranger+++
-720 bgb_b_ranger+++
-721 bgw_w_rook
-722 bgb_w_rook
-723 bgw_w_rook+
+720 bgb_b_ranger+++ 319768 228471 228471
+721 bgw_w_rook 437201 437201 437201
+722 bgb_w_rook 367777 367777 367777
+723 bgw_w_rook+ 437757 405479 446857
 724 bgb_w_rook+
 725 bgw_w_rook++
 726 bgb_w_rook++
 727 bgw_w_rook+++
 728 bgb_w_rook+++
-729 bgw_b_rook
+729 bgw_b_rook 343701 343701 343701
 730 bgb_b_rook 274277 274277 274277
 731 bgw_b_rook+
 732 bgb_b_rook+
@@ -734,32 +734,32 @@
 734 bgb_b_rook++
 735 bgw_b_rook+++
 736 bgb_b_rook+++
-737 bgw_w_samurai
-738 bgb_w_samurai
+737 bgw_w_samurai 419909 419909 419909
+738 bgb_w_samurai 351918 351918 351918
 739 bgw_w_samurai+
 740 bgb_w_samurai+
 741 bgw_w_samurai++
 742 bgb_w_samurai++
 743 bgw_w_samurai+++ 436015 350703 350703
 744 bgb_w_samurai+++
-745 bgw_b_samurai
-746 bgb_b_samurai
+745 bgw_b_samurai 336549 336549 336549
+746 bgb_b_samurai 268568 268568 268568
 747 bgw_b_samurai+
 748 bgb_b_samurai+
 749 bgw_b_samurai++
 750 bgb_b_samurai++
 751 bgw_b_samurai+++
 752 bgb_b_samurai+++
-753 bgw_w_thundermage
+753 bgw_w_thundermage 354471 354471 354471
 754 bgb_w_thundermage
 755 bgw_w_thundermage+
-756 bgb_w_thundermage+
+756 bgb_w_thundermage+ 449120 413754 457950
 757 bgw_w_thundermage++
 758 bgb_w_thundermage++
 759 bgw_w_thundermage+++
 760 bgb_w_thundermage+++
 761 bgw_b_thundermage
-762 bgb_b_thundermage
+762 bgb_b_thundermage 312060 312060 312060
 763 bgw_b_thundermage+ 411619 376303 420411
 764 bgb_b_thundermage+ 328998 293682 337790
 765 bgw_b_thundermage++
@@ -768,7 +768,7 @@
 768 bgb_b_thundermage+++
 769 bgw_w_wisp
 770 bgb_w_wisp
-771 bgw_w_wisp+
+771 bgw_w_wisp+ 435188 382516 447625
 772 bgb_w_wisp+
 773 bgw_w_wisp++
 774 bgb_w_wisp++
@@ -779,7 +779,7 @@
 779 bgw_b_wisp+
 780 bgb_b_wisp+ 314413 261832 326811
 781 bgw_b_wisp++
-782 bgb_b_wisp++
+782 bgb_b_wisp++ 338577 289359 239081
 783 bgw_b_wisp+++
 784 bgb_b_wisp+++
 785 bgw_w_beacon
@@ -806,15 +806,15 @@
 806 bgb_w_behemoth++
 807 bgw_w_behemoth+++
 808 bgb_w_behemoth+++
-809 bgw_b_behemoth
-810 bgb_b_behemoth
-811 bgw_b_behemoth+
+809 bgw_b_behemoth 311882 311882 311882
+810 bgb_b_behemoth 250222 250222 250222
+811 bgw_b_behemoth+ 326586 279842 338655
 812 bgb_b_behemoth+
 813 bgw_b_behemoth++
 814 bgb_b_behemoth++
 815 bgw_b_behemoth+++
 816 bgb_b_behemoth+++
-817 bgw_w_demon
+817 bgw_w_demon 399982 399982 399982
 818 bgb_w_demon
 819 bgw_w_demon+
 820 bgb_w_demon+
@@ -822,26 +822,26 @@
 822 bgb_w_demon++
 823 bgw_w_demon+++
 824 bgb_w_demon+++
-825 bgw_b_demon
-826 bgb_b_demon
+825 bgw_b_demon 356479 356479 356479
+826 bgb_b_demon 279694 279694 279694
 827 bgw_b_demon+
 828 bgb_b_demon+ 296610 257453 307253
 829 bgw_b_demon++
 830 bgb_b_demon++
 831 bgw_b_demon+++
 832 bgb_b_demon+++
-833 bgw_w_dragon
-834 bgb_w_dragon
-835 bgw_w_dragon+
+833 bgw_w_dragon 398816 398816 398816
+834 bgb_w_dragon 339054 339054 339054
+835 bgw_w_dragon+ 406664 361490 418474
 836 bgb_w_dragon+
 837 bgw_w_dragon++
 838 bgb_w_dragon++
 839 bgw_w_dragon+++
 840 bgb_w_dragon+++
-841 bgw_b_dragon
-842 bgb_b_dragon 247171 247171 247171
+841 bgw_b_dragon 306922 306922 306922
+842 bgb_b_dragon 296953 296953 296953
 843 bgw_b_dragon+ 321212 276006 333000
-844 bgb_b_dragon+
+844 bgb_b_dragon+ 267425 222219 279213
 845 bgw_b_dragon++
 846 bgb_b_dragon++
 847 bgw_b_dragon+++
@@ -854,9 +854,9 @@
 854 bgb_w_ghast++
 855 bgw_w_ghast+++
 856 bgb_w_ghast+++
-857 bgw_b_ghast
+857 bgw_b_ghast 375615 375615 375615
 858 bgb_b_ghast
-859 bgw_b_ghast+
+859 bgw_b_ghast+ 388226 346762 398477
 860 bgb_b_ghast+
 861 bgw_b_ghast++
 862 bgb_b_ghast++
@@ -878,7 +878,7 @@
 878 bgb_b_harpy++
 879 bgw_b_harpy+++
 880 bgb_b_harpy+++
-881 bgw_w_hauntedarmor
+881 bgw_w_hauntedarmor 384197 384197 384197
 882 bgb_w_hauntedarmor
 883 bgw_w_hauntedarmor+
 884 bgb_w_hauntedarmor+ 405075 342361 420373
@@ -887,7 +887,7 @@
 887 bgw_w_hauntedarmor+++
 888 bgb_w_hauntedarmor+++
 889 bgw_b_hauntedarmor
-890 bgb_b_hauntedarmor
+890 bgb_b_hauntedarmor 273260 273260 273260
 891 bgw_b_hauntedarmor+
 892 bgb_b_hauntedarmor+
 893 bgw_b_hauntedarmor++
@@ -907,10 +907,10 @@
 907 bgw_b_lifestone+
 908 bgb_b_lifestone+
 909 bgw_b_lifestone++
-910 bgb_b_lifestone++
+910 bgb_b_lifestone++ 345018 310378 281906
 911 bgw_b_lifestone+++
 912 bgb_b_lifestone+++
-913 bgw_w_medusa
+913 bgw_w_medusa 426036 426036 426036
 914 bgb_w_medusa 426036 426036 426036
 915 bgw_w_medusa+
 916 bgb_w_medusa+
@@ -918,15 +918,15 @@
 918 bgb_w_medusa++
 919 bgw_w_medusa+++
 920 bgb_w_medusa+++
-921 bgw_b_medusa
-922 bgb_b_medusa 363709 326021 373976
+921 bgw_b_medusa 378475 378475 378475
+922 bgb_b_medusa
 923 bgw_b_medusa+
 924 bgb_b_medusa+
 925 bgw_b_medusa++
 926 bgb_b_medusa++
 927 bgw_b_medusa+++
 928 bgb_b_medusa+++
-929 bgw_w_minotaur
+929 bgw_w_minotaur 416095 416095 416095
 930 bgb_w_minotaur
 931 bgw_w_minotaur+
 932 bgb_w_minotaur+
@@ -935,7 +935,7 @@
 935 bgw_w_minotaur+++
 936 bgb_w_minotaur+++
 937 bgw_b_minotaur
-938 bgb_b_minotaur
+938 bgb_b_minotaur 252671 252671 252671
 939 bgw_b_minotaur+
 940 bgb_b_minotaur+
 941 bgw_b_minotaur++
@@ -951,15 +951,15 @@
 951 bgw_w_ninja+++
 952 bgb_w_ninja+++
 953 bgw_b_ninja 335846 335846 335846
-954 bgb_b_ninja 266675 266675 266675
+954 bgb_b_ninja 282866 245147 293082
 955 bgw_b_ninja+ 346614 308895 356830
 956 bgb_b_ninja+ 282866 245147 293082
 957 bgw_b_ninja++
 958 bgb_b_ninja++
 959 bgw_b_ninja+++
 960 bgb_b_ninja+++
-961 bgw_w_queen
-962 bgb_w_queen
+961 bgw_w_queen 429303 429303 429303
+962 bgb_w_queen 342144 342144 342144
 963 bgw_w_queen+
 964 bgb_w_queen+
 965 bgw_w_queen++
@@ -968,13 +968,13 @@
 968 bgb_w_queen+++
 969 bgw_b_queen 371867 371867 371867
 970 bgb_b_queen 292628 292628 292628
-971 bgw_b_queen+
+971 bgw_b_queen+ 384875 346930 394875
 972 bgb_b_queen+
 973 bgw_b_queen++
-974 bgb_b_queen++
+974 bgb_b_queen++ 331429 290468 249698
 975 bgw_b_queen+++
 976 bgb_b_queen+++
-977 bgw_w_salamander
+977 bgw_w_salamander 421212 421212 421212
 978 bgb_w_salamander
 979 bgw_w_salamander+
 980 bgb_w_salamander+
@@ -983,9 +983,9 @@
 983 bgw_w_salamander+++
 984 bgb_w_salamander+++
 985 bgw_b_salamander
-986 bgb_b_salamander
-987 bgw_b_salamander+
-988 bgb_b_salamander+
+986 bgb_b_salamander 376807 376807 376807
+987 bgw_b_salamander+ 374436 374436 374436
+988 bgb_b_salamander+ 320890 266293 333806
 989 bgw_b_salamander++
 990 bgb_b_salamander++
 991 bgw_b_salamander+++
@@ -1001,29 +1001,29 @@
 1001 bgw_b_summoner
 1002 bgb_b_summoner
 1003 bgw_b_summoner+
-1004 bgb_b_summoner+
+1004 bgb_b_summoner+ 318384 277304 329079
 1005 bgw_b_summoner++
 1006 bgb_b_summoner++
 1007 bgw_b_summoner+++
 1008 bgb_b_summoner+++
-1009 bgw_w_valkrie
-1010 bgb_w_valkrie
+1009 bgw_w_valkrie 359964 359964 359964
+1010 bgb_w_valkrie 292812 292812 292812
 1011 bgw_w_valkrie+
 1012 bgb_w_valkrie+
 1013 bgw_w_valkrie++
 1014 bgb_w_valkrie++
 1015 bgw_w_valkrie+++
 1016 bgb_w_valkrie+++
-1017 bgw_b_valkrie
-1018 bgb_b_valkrie
+1017 bgw_b_valkrie 313702 313702 313702
+1018 bgb_b_valkrie 282036 282036 282036
 1019 bgw_b_valkrie+ 378452 326776 391355
-1020 bgb_b_valkrie+
+1020 bgb_b_valkrie+ 282921 215764 300115
 1021 bgw_b_valkrie++
-1022 bgb_b_valkrie++
-1023 bgw_b_valkrie+++
+1022 bgb_b_valkrie++ 331682 285562 243629
+1023 bgw_b_valkrie+++ 368904 248186 248186
 1024 bgb_b_valkrie+++
-1025 bgw_w_wizard
-1026 bgb_w_wizard
+1025 bgw_w_wizard 430812 430812 430812
+1026 bgb_w_wizard 356972 356972 356972
 1027 bgw_w_wizard+ 433749 397304 443541
 1028 bgb_w_wizard+ 365232 328787 375024
 1029 bgw_w_wizard++
@@ -1031,17 +1031,17 @@
 1031 bgw_w_wizard+++
 1032 bgb_w_wizard+++
 1033 bgw_b_wizard 355141 355141 355141
-1034 bgb_b_wizard
+1034 bgb_b_wizard 281301 281301 281301
 1035 bgw_b_wizard+ 365072 328648 374814
-1036 bgb_b_wizard+
-1037 bgw_b_wizard++
+1036 bgb_b_wizard+ 296555 260131 306297
+1037 bgw_b_wizard++ 379749 339516 299555
 1038 bgb_b_wizard++
 1039 bgw_b_wizard+++
 1040 bgb_b_wizard+++
 1041 bgw_w_antimage
-1042 bgb_w_antimage
-1043 bgw_w_antimage+
-1044 bgb_w_antimage+
+1042 bgb_w_antimage 330451 330451 330451
+1043 bgw_w_antimage+ 413141 358068 427364
+1044 bgb_w_antimage+ 350810 295737 365033
 1045 bgw_w_antimage++ 377271 320030 266772
 1046 bgb_w_antimage++
 1047 bgw_w_antimage+++
@@ -1050,11 +1050,11 @@
 1050 bgb_b_antimage 266311 266311 266311
 1051 bgw_b_antimage+
 1052 bgb_b_antimage+
-1053 bgw_b_antimage++
+1053 bgw_b_antimage++ 377905 320806 267528
 1054 bgb_b_antimage++
 1055 bgw_b_antimage+++
-1056 bgb_b_antimage+++
-1057 bgw_w_comet
+1056 bgb_b_antimage+++ 322395 219180 219180
+1057 bgw_w_comet 399629 399629 399629
 1058 bgb_w_comet
 1059 bgw_w_comet+
 1060 bgb_w_comet+
@@ -1062,9 +1062,9 @@
 1062 bgb_w_comet++
 1063 bgw_w_comet+++
 1064 bgb_w_comet+++
-1065 bgw_b_comet
-1066 bgb_b_comet
-1067 bgw_b_comet+
+1065 bgw_b_comet 372768 372768 372768
+1066 bgb_b_comet 289828 289828 289828
+1067 bgw_b_comet+ 389873 331688 403964
 1068 bgb_b_comet+
 1069 bgw_b_comet++
 1070 bgb_b_comet++
@@ -1094,8 +1094,8 @@
 1094 bgb_w_fireelemental++
 1095 bgw_w_fireelemental+++
 1096 bgb_w_fireelemental+++
-1097 bgw_b_fireelemental
-1098 bgb_b_fireelemental
+1097 bgw_b_fireelemental 351786 351786 351786
+1098 bgb_b_fireelemental 274017 274017 274017
 1099 bgw_b_fireelemental+
 1100 bgb_b_fireelemental+
 1101 bgw_b_fireelemental++
@@ -1107,13 +1107,13 @@
 1107 bgw_w_gemini+
 1108 bgb_w_gemini+
 1109 bgw_w_gemini++
-1110 bgb_w_gemini++
+1110 bgb_w_gemini++ 373483 327367 284588
 1111 bgw_w_gemini+++
 1112 bgb_w_gemini+++
-1113 bgw_b_gemini
+1113 bgw_b_gemini 356577 356577 356577
 1114 bgb_b_gemini
 1115 bgw_b_gemini+
-1116 bgb_b_gemini+
+1116 bgb_b_gemini+ 305704 252420 319956
 1117 bgw_b_gemini++
 1118 bgb_b_gemini++ 395441 349386 306551
 1119 bgw_b_gemini+++
@@ -1137,28 +1137,28 @@
 1137 bgw_w_lilith
 1138 bgb_w_lilith
 1139 bgw_w_lilith+
-1140 bgb_w_lilith+
+1140 bgb_w_lilith+ 353947 303898 367259
 1141 bgw_w_lilith++
 1142 bgb_w_lilith++
 1143 bgw_w_lilith+++
 1144 bgb_w_lilith+++
-1145 bgw_b_lilith
+1145 bgw_b_lilith 337199 337199 337199
 1146 bgb_b_lilith
 1147 bgw_b_lilith+ 354648 304723 367912
 1148 bgb_b_lilith+ 291318 241393 304582
 1149 bgw_b_lilith++
 1150 bgb_b_lilith++
-1151 bgw_b_lilith+++
+1151 bgw_b_lilith+++ 374762 274261 274261
 1152 bgb_b_lilith+++
 1153 bgw_w_lust
-1154 bgb_w_lust
+1154 bgb_w_lust 321957 321957 321957
 1155 bgw_w_lust+
 1156 bgb_w_lust+
 1157 bgw_w_lust++
 1158 bgb_w_lust++
 1159 bgw_w_lust+++
 1160 bgb_w_lust+++
-1161 bgw_b_lust
+1161 bgw_b_lust 342042 342042 342042
 1162 bgb_b_lust
 1163 bgw_b_lust+
 1164 bgb_b_lust+
@@ -1166,7 +1166,7 @@
 1166 bgb_b_lust++
 1167 bgw_b_lust+++
 1168 bgb_b_lust+++
-1169 bgw_w_moonfox
+1169 bgw_w_moonfox 414618 414618 414618
 1170 bgb_w_moonfox 332230 332230 332230
 1171 bgw_w_moonfox+
 1172 bgb_w_moonfox+
@@ -1174,9 +1174,9 @@
 1174 bgb_w_moonfox++
 1175 bgw_w_moonfox+++
 1176 bgb_w_moonfox+++
-1177 bgw_b_moonfox
+1177 bgw_b_moonfox 378011 378011 378011
 1178 bgb_b_moonfox 295623 295623 295623
-1179 bgw_b_moonfox+
+1179 bgw_b_moonfox+ 390139 342031 402757
 1180 bgb_b_moonfox+
 1181 bgw_b_moonfox++
 1182 bgb_b_moonfox++
@@ -1191,7 +1191,7 @@
 1191 bgw_w_phoenix+++
 1192 bgb_w_phoenix+++
 1193 bgw_b_phoenix 318258 318258 318258
-1194 bgb_b_phoenix 253426 235784 235784
+1194 bgb_b_phoenix 253426 253426 253426
 1195 bgw_b_phoenix+ 341360 276428 357745
 1196 bgb_b_phoenix+
 1197 bgw_b_phoenix++
@@ -1199,7 +1199,7 @@
 1199 bgw_b_phoenix+++
 1200 bgb_b_phoenix+++
 1201 bgw_w_royalguard
-1202 bgb_w_royalguard
+1202 bgb_w_royalguard 322005 322011 322011
 1203 bgw_w_royalguard+
 1204 bgb_w_royalguard+
 1205 bgw_w_royalguard++
@@ -1208,24 +1208,24 @@
 1208 bgb_w_royalguard+++
 1209 bgw_b_royalguard
 1210 bgb_b_royalguard
-1211 bgw_b_royalguard+
-1212 bgb_b_royalguard+
+1211 bgw_b_royalguard+ 322260 286863 331655
+1212 bgb_b_royalguard+ 265573 230176 274968
 1213 bgw_b_royalguard++
 1214 bgb_b_royalguard++
 1215 bgw_b_royalguard+++
 1216 bgb_b_royalguard+++
-1217 bgw_w_soulkeeper
-1218 bgb_w_soulkeeper
+1217 bgw_w_soulkeeper 362305 362305 362305
+1218 bgb_w_soulkeeper 302996 302996 302996
 1219 bgw_w_soulkeeper+
 1220 bgb_w_soulkeeper+
 1221 bgw_w_soulkeeper++
 1222 bgb_w_soulkeeper++
 1223 bgw_w_soulkeeper+++
 1224 bgb_w_soulkeeper+++
-1225 bgw_b_soulkeeper
+1225 bgw_b_soulkeeper 298726 298726 298726
 1226 bgb_b_soulkeeper 239298 239298 239298
 1227 bgw_b_soulkeeper+
-1228 bgb_b_soulkeeper+
+1228 bgb_b_soulkeeper+ 266505 214304 280065
 1229 bgw_b_soulkeeper++
 1230 bgb_b_soulkeeper++
 1231 bgw_b_soulkeeper+++
@@ -1233,14 +1233,14 @@
 1233 bgw_w_vampire
 1234 bgb_w_vampire
 1235 bgw_w_vampire+
-1236 bgb_w_vampire+
+1236 bgb_w_vampire+ 349839 300332 362684
 1237 bgw_w_vampire++
 1238 bgb_w_vampire++
 1239 bgw_w_vampire+++
 1240 bgb_w_vampire+++
 1241 bgw_b_vampire
-1242 bgb_b_vampire
-1243 bgw_b_vampire+
+1242 bgb_b_vampire 279130 279130 279130
+1243 bgw_b_vampire+ 370974 321465 383804
 1244 bgb_b_vampire+
 1245 bgw_b_vampire++
 1246 bgb_b_vampire++
