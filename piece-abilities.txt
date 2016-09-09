@@ -46,7 +46,7 @@
 46 guardian+
 47 guardian++
 48 guardian+++
-49 knight
+49 knight 4 -2:-1,1:2 -2:-1,-1:-2 1:2,2:1 1:2,-2:-1 /
 50 knight+
 51 knight++
 52 knight+++
@@ -54,7 +54,7 @@
 54 militia+
 55 militia++
 56 militia+++
-57 pawn
+57 pawn 2 0,1 / 3 -1:1,0 / 25 0,2 /
 58 pawn+
 59 pawn++
 60 pawn+++
@@ -310,3 +310,4 @@
 310 vampire+
 311 vampire++
 312 vampire+++
+313 king

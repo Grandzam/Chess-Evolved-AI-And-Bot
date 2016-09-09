@@ -18,6 +18,8 @@ releaseMouse = mouse.press
 #temporary hack TODO: deal with this better
 bgwNone = (493680,493680,493680)
 bgbNone = (379456,379456,379456)
+bgwRedNone = (485936,454960,454960)
+bgbRedNone = (379456,348480,348480)
 
 #a global for the size of the squares on the chess board in pixels just like everything else
 sqSize = 60
@@ -131,7 +133,7 @@ def readSquare(x,y,bX,bY):
 
     #print()
 
-    if RGBSum == bgbNone or RGBSum == bgwNone:
+    if RGBSum == bgbNone or RGBSum == bgwNone or RGBSum == bgbRedNone or RGBSum == bgwRedNone:
         return 0,'none',RGBSum
 
     #enumerate allows us to use index and value. index is the piece id for now
